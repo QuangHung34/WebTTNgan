@@ -321,6 +321,22 @@
   transform: scale(1.02);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
+.anh-sosanh {
+  display: flex;
+  justify-content: center; /* căn giữa ảnh */
+  gap: 20px; /* khoảng cách giữa 2 ảnh */
+  flex-wrap: wrap; /* xuống dòng nếu quá rộng */
+  margin-bottom: 20px;
+}
+
+.anh-sosanh img {
+  max-width: 100%;
+  height: auto;
+  width: 45%; /* bạn có thể điều chỉnh tuỳ ý */
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
 
 /* Responsive cho mobile */
 @media (max-width: 768px) {
